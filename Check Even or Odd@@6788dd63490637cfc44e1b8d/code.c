@@ -3,9 +3,9 @@ int main() {
     int a;
     scanf("%d",a);
     if(a%2==0){
-        print("Even");
+        printf("Even %d",a);
     }
     else{
-        print("Odd");
+        print("Odd %d",a);
     }
 }
