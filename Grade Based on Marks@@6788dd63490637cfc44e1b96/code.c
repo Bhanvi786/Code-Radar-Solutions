@@ -1,4 +1,5 @@
 #include <stdio.h>
+void main(){
 int a;
 scanf("%d",&a);
 if(a>=90){
@@ -15,4 +16,5 @@ else if(a>=60 && a<70){
 }
 else{
     printf("F");
+}
 }
