@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <ctype.h>
+void main(){
 char x;
 scanf("%c",&x);
 if(isalpha(x)){
@@ -14,4 +16,5 @@ else if(isdigit(a)){
 else{
         printf("Special Character");
     }
+}
 }
