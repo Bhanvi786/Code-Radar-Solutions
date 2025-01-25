@@ -10,11 +10,11 @@ if(isalpha(x)){
     else{
         printf("Consonant");
     }
+}
 else if(isdigit(x)){
         printf("Digit");
     }
 else{
         printf("Special Character");
     }
-}
 }
