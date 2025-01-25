@@ -1,8 +1,9 @@
 #include <stdio.h>
 void main(){
-int a,b;
+int a,b,c;
 scanf("%d %d",&a,&b);
-if(a*a==b){
+c=a*a
+if(c==b){
     printf("Yes");
 }
 else{
