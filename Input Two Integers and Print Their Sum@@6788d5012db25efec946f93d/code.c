@@ -2,5 +2,5 @@
 int a,b;
 scanf("%d",&a);
 scanf("%d",&b);
-sum=a+b;
-printf("Sum: %d",sum);
+
+printf("Sum: %d",a+b);
