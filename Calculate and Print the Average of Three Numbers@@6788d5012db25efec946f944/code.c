@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+void main() {
     float a,b,c;
     float avg;
     scanf("%f %f %f",&a,&b,&c);
