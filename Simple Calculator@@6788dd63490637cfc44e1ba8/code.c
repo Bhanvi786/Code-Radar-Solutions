@@ -12,7 +12,10 @@ void main(){
     else if(c=='/'){
         printf("%d",a/b);
     }
-    else{
+    else if(c=='/'){
         printf("%d",a*b);
+    }
+    else{
+        printf("Error");
     }
 }
