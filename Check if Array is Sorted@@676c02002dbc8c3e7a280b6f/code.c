@@ -19,11 +19,11 @@ for(int i=0;i<n;i++)
 }
 if (sorted)
 {
-    printf("Sorted\n")
+    printf("Sorted\n");
 }
 else
 {
-    printf("Not Sorted\n")
+    printf("Not Sorted\n");
 }
 return 0;
 }
