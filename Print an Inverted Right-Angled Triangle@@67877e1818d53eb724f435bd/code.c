@@ -9,10 +9,10 @@ void main()
         while(b<=a)
         {
             printf("*");
-            b=b+1;
+            b=b+1
         }
-        printf("\n");
-        b=1;
-        a=a-1;
+    printf("\n");
+    b=1;
+    a=a-1;
     }
 }
