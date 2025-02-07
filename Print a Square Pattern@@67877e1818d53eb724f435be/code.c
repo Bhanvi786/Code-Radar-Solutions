@@ -9,9 +9,9 @@ void main(){
         while(b<=n)
         {
             printf("* ");
-            j=j+1;
+            b=b+1;
         }
         printf("\n");
-        i=i+1;
+        a=a+1;
     }
 }
