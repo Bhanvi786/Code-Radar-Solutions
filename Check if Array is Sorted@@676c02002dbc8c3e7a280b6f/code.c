@@ -3,15 +3,15 @@ int main()
 {
 int n;
 scanf("%d",&n);
-int a[n]
+int a[n];
 for(int i=0;i<n;i++)
 {
     scanf("%d",&a[i]);
 }
 int sorted=1;
-for(int i=0;i<n;i++)
+for(int i=1;i<n;i++)
 {
-    if(arr[i]<arr[i-1])
+    if(a[i]<a[i-1])
     {
         sorted=0;
         break;
