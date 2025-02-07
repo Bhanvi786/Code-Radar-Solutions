@@ -2,7 +2,6 @@
 void main()
 {
     int a=1;
-    
     int c;
     scanf("%d",&c);
     while(a<=c)
