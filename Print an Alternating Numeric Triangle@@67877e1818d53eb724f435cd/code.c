@@ -7,7 +7,13 @@ void main()
     {
         for(j=1;j<=i;j++)
         {
-            printf("%d ",(i+j)%2);
+            if((i+j)%2==0){
+            printf("1 ");
+            }
+            else
+            {
+                printf("0 ")
+            }
         }
     printf("\n");
     }
