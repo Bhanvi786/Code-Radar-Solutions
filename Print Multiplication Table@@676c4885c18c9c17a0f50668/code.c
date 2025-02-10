@@ -3,9 +3,9 @@ void main(){
     int i,n;
     scanf("%d",&n);
     {
-        for(i=1;i<=n;i++)
+        for(i=1;i<=10;i++)
         {
-            printf("%d,%d",n x i = n*i);
+            printf("%d x %d = %d\n",n,i,n*i);
         }
     }
 }
