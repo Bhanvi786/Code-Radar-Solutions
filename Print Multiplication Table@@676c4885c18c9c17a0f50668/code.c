@@ -5,7 +5,7 @@ void main(){
     {
         for(i=1;i<=n;i++)
         {
-            printf("n x i = n*i");
+            printf("%d,%d",n x i = n*i);
         }
     }
 }
