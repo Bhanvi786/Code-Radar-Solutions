@@ -10,7 +10,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     int maxright=arr[n-1];
-    printf("%d",maxright);
+    printf("%d ",maxright);
     for(int i=n-1;i>=0;i--)
     {
         if(arr[i]>maxright)
