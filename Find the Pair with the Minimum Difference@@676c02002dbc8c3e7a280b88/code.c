@@ -34,4 +34,5 @@ int main()
         }
     }
     printf("%d %d",arr[n],arr[n+1]);
+    return 0;
 }
