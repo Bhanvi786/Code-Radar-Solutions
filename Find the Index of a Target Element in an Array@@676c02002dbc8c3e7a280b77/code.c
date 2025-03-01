@@ -18,6 +18,6 @@ int main()
             break;
         }
     }
-    printf("%d",&i);
+    printf("%d",i);
 
 }
