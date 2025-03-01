@@ -10,13 +10,13 @@ int main()
         scanf("%d",&arr[i]);
     }
     int increasing=1,decreasing=1;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n-1;i++)
     {
-        if(arr[i]>=arr[i+1])
+        if(arr[i]>arr[i+1])
         {
             increasing=0;
         }
-        else if(arr[i]<=arr[i+1])
+        else if(arr[i]<arr[i+1])
         {
             decreasing=0;
         }
