@@ -13,7 +13,7 @@ int main()
     {
         if(arr[i]==count)
         {
-            count++
+            count++;
         }
     }
     printf("%d",count);
