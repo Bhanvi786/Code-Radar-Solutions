@@ -27,7 +27,7 @@ int main()
         {
             printf("%d",arr[i]);
             duplicate=1;
-            while(i<n-1 && arr[i]==arr[i+1]){
+            while(i>0 && arr[i]==arr[i+1]){
                 i++;
             }
         }
