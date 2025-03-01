@@ -16,7 +16,7 @@ int main()
         if(arr[i]>maxright)
         {
             maxright=arr[i];
-            printf("%d",maxright);
+            printf("%d ",maxright);
         }
     }
     return 0;
