@@ -1,8 +1,9 @@
 // Your code here...
 int main()
 {
-    int n,arr[n];
+    int n;
     scanf("%d",&n);
+    int arr[n];
     for(int i=0;i<n;i++)
     {
     scanf("%d",arr[n]);
@@ -27,12 +28,12 @@ int main()
     int index=0;
     for(int i=0;i<n;i++)
     {
-        if(arr[n+1]-arr[n]<diff)
+        if(arr[i+1]-arr[i]<diff)
         {
-            diff=arr[n+1]-arr[n];
+            diff=arr[i+1]-arr[i];
             index=i;
         }
     }
-    printf("%d %d",arr[n],arr[n+1]);
+    printf("%d %d",arr[index],arr[index+1]);
     return 0;
 }
