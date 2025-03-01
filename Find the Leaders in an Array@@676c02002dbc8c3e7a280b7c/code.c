@@ -1,4 +1,4 @@
-#include <stdio.h>
+##include <stdio.h>
 
 int main() {
     int n;
@@ -11,13 +11,13 @@ int main() {
     }
 
     int maxFromRight = arr[n - 1]; // Rightmost element is always a leader
-    printf("%d ", maxFromRight);  // Print it directly
+    printf("%d ", maxFromRight);   // Print directly
 
     // Traverse from second-last to first element
     for (int i = n - 2; i >= 0; i--) {
         if (arr[i] > maxFromRight) {
             maxFromRight = arr[i];
-            printf("%d ", maxFromRight); // Directly print leader
+            printf("%d ", maxFromRight);  // Print directly in correct order
         }
     }
 
