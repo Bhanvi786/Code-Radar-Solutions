@@ -10,7 +10,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-    if(int i%2==0)
+    if(i%2==0)
     {
         evencount++;
     }
