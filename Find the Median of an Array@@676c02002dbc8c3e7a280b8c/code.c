@@ -15,7 +15,7 @@ int main()
         {
             if(arr[j]>arr[j+1])
             {
-                temp=arr[j];
+                int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
             }
@@ -28,7 +28,7 @@ int main()
     }
     else
     {
-        median (arr[n/2-1]+arr[n/ 2])/2;
+        median=(arr[n/2-1]+arr[n/ 2])/2;
     }
     printf("%d",median);
     
