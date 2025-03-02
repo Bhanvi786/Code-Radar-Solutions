@@ -1,0 +1,35 @@
+// Your code here...
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d,&n");
+    int arr[n];
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i])
+    }
+    for(int i=0;i<n-1;i++)
+    {
+        for(int j=0;j<n-1-i;j++)
+        {
+            if(a[j]>a[j+1])
+            {
+                temp=a[j];
+                a[j]=a[j+1];
+                a[j+1]=temp;
+            }
+        }
+    }
+    int median;
+    if(n%2==1)
+    {
+        median=arr[n/2];
+    }
+    else
+    {
+        median (arr[n/2-1]+arr[n/ 2])/2;
+    }
+    printf("%d",median);
+    
+}
