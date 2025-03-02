@@ -11,7 +11,7 @@ int main()
     }
     int k;
     scanf("%d",&k);
-    int temp;shift_count;
+    int temp;
     temp=arr[n-1]
     while(k)
     {
