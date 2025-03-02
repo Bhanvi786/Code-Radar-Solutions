@@ -12,7 +12,7 @@ int main()
     int k;
     scanf("%d",&k);
     int temp;
-    temp=arr[n-1]
+    temp=arr[n-1];
     while(k)
     {
         for(int i=n-1;i>=1;i--)
