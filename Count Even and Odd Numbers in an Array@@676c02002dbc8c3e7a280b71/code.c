@@ -3,7 +3,7 @@
 int main()
 {
     int n,evencount=0,oddcount=0;
-    scnaf("%d",&n);
+    scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
     {
