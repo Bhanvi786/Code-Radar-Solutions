@@ -15,7 +15,7 @@ for(int i=0;i<n;i++)
     {
         if(i!=j)
         {
-            int trmp=arr[i];
+            int temp=arr[i];
             arr[i]=arr[j];
             arr[j]=temp;
         }
