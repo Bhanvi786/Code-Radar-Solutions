@@ -30,5 +30,5 @@ int main()
             break;
         }
     }
-    printf("%d",second smallest);
+    printf("%d",second_smallest);
     }
