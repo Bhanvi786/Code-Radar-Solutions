@@ -2,20 +2,30 @@
 #include<stdio.h>
 int main()
 {
-    int n,sum=0,i;
+    int n,count=0,i;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
-    for(int j=2;j<arr[i];j++)
+     for(int i=0;i<n;i++)
     {
-       if(arr[i]%j!=0)
-       {
-            sum=sum+1;
-       }
+        int num=arr[i]
+        flag=1;
+        for(int j=2;j<=num;j++)
+        {
+            if(num%j==0)
+            {
+                flag=0;
+                break;
+            }
+        }
+        if(flag)
+        {
+            count++
+        }
     }
-    printf("%d",sum);
-
+    printf("%d",count);
+    return 0;
 }
