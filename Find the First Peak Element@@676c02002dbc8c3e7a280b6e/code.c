@@ -30,7 +30,7 @@ int main()
     }
     else
     {
-        printf("-1");
+        printf("-1"); //test case 6 equal to nhi likhna upar wale cases main
         return 0;
     }
     return 0;
