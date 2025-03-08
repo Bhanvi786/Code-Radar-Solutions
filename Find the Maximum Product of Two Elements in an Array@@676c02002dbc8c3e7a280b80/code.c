@@ -20,6 +20,6 @@ int main()
             }
         }
     }
-    int a=arr[n-2]*arr[n-1]
+    int a=arr[n-2]*arr[n-1];
     printf("%d",a);
 }
