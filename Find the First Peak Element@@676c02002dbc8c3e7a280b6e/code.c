@@ -28,6 +28,11 @@ int main()
         printf("%d",arr[n-1]);
         return 0;
     }
+    else
+    {
+        printf("0");
+        return 0;
+    }
     return 0;
 
 }
