@@ -21,5 +21,14 @@ int main()
             }
         }
     }
-    printf("%d",arr[1]);
+    int smallest=arr[0],second_smallest=-1;
+    for(int i=1;i<n;i++)
+    {
+        if(arr[i]>smallest)
+        {
+            second_smallest=arr[i];
+            break;
+        }
+    }
+    printf("%d",second smallest);
     }
