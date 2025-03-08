@@ -23,7 +23,7 @@ int main()
         }
         if(flag)
         {
-            count++
+            count++;
         }
     }
     printf("%d",count);
