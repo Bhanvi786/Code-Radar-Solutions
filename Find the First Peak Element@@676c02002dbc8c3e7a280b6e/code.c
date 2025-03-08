@@ -30,7 +30,7 @@ int main()
     }
     else
     {
-        printf("0");
+        printf("-1");
         return 0;
     }
     return 0;
