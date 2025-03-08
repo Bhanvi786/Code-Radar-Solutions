@@ -9,9 +9,9 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for(int i=2;i<arr[i];i++)
+    for(int j=2;j<arr[i];j++)
     {
-       if(arr[i]%i!=0)
+       if(arr[i]%j!=0)
        {
             sum=sum+1;
        }
