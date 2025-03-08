@@ -6,9 +6,9 @@ int main()
     scanf("%d",&n);
     int arr[n];
     scanf("%d",&arr[i]);
-    for(i=0;i<n-1;i++)
+    for(int i=0;i<n-1;i++)
     {
-        for(j=0;j<n-1-i;j++)
+        for(int j=0;j<n-1-i;j++)
         {
             if(a[j]>a[j+1])
             {
