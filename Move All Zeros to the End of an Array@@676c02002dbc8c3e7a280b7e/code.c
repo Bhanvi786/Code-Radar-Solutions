@@ -11,7 +11,7 @@ for(int i=0;i<n;i++)
 int j=0;
 for(int i=0;i<n;i++)
 {
-    if (arr[i]!=0);
+    if (arr[i]!=0)
     {
         if(i!=j)
         {
@@ -21,11 +21,12 @@ for(int i=0;i<n;i++)
         }
         j++;
     }
+}
     for(int i=0;i<n;i++)
 {
-    printf("%d",&arr[i]);
+    printf("%d",arr[i]);
 }
 
-}
+
 }
 
