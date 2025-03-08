@@ -10,7 +10,7 @@ int main()
         scanf("%d",&arr[i]);
     }
         int right=-1;
-        for(int i=n-1;n>=0;n--)
+        for(int i=n-1;i>=0;n--)
         {
             int temp=arr[i];
             arr[i]=right;
