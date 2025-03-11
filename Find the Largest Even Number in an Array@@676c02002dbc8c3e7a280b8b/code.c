@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,largest=-1000000000;
+    int n,largest=-1000;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
