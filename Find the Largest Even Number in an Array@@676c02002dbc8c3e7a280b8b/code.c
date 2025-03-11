@@ -13,7 +13,7 @@ int main()
     {
         if(arr[i]%2==0)
         {
-            if(largest=-1 ||arr[i]>largest)
+            if(arr[i]>largest)
             {
                 largest=arr[i];
             }
