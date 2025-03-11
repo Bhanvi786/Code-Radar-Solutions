@@ -28,6 +28,6 @@ int main()
         count++;
     }
     }
-    printff("%d",count);
+    printf("%d",count);
 
 }
