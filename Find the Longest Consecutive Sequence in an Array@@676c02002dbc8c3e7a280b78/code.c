@@ -27,7 +27,12 @@ int main()
     {
         count++;
     }
+    else if(arr[i]==arr[i+1])
+    {
+        printf("1");
     }
+    }
+
     printf("%d",count);
 
 }
