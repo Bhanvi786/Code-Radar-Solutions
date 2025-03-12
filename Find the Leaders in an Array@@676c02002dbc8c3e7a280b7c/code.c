@@ -1,25 +1,17 @@
 #include <stdio.h>
-
-int main() {
+int main()
+{
     int n;
-    scanf("%d", &n);
+    scanf("%d",&n);
     int arr[n];
-
-    // Input array
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
     }
-
-    int maxFromRight = arr[n - 1]; // Rightmost element is always a leader
-    printf("%d ", maxFromRight);   // Print directly
-
-    // Traverse from second-last to first element
-    for (int i = n - 2; i >= 0; i--) {
-        if (arr[i] > maxFromRight) {
-            maxFromRight = arr[i];
-            printf("%d ", maxFromRight);  // Print directly in correct order
+    for(int i=0;i<n;i++)
+    {
+        if arr[i]>arr[i-1]{
+        printf("%d",arr[i]);
         }
     }
-
-    return 0;
 }
