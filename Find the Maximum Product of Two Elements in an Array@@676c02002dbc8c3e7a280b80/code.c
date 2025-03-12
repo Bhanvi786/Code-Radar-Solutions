@@ -20,6 +20,14 @@ int main()
             }
         }
     }
-    int a=arr[n-2]*arr[n-1];
-    printf("%d",a);
+    int max1=arr[n-2]*arr[n-1];
+    int max2=arr[0]*arr[1];
+    if(max1>max2)
+    {
+    printf("%d",max1);
+    }
+    else
+    {
+        printf("%d",max2);
+    }
 }
