@@ -1,4 +1,4 @@
-// Your code here...
+// Your code here... gALAT HAI YEH DUPLICATES NHI CHALENGE
 #include<stdio.h>
 int main()
 {
