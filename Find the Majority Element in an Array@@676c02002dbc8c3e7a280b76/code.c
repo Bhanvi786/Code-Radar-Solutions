@@ -24,14 +24,23 @@ for(int i=0;i<n;i++)
         }
     }
     freq[i]=count;
-    if(count>n/2)
+    
+}
+int flag=0;
+for(i=0;i<n;i++)
+{
+    if(freq[i]>n/2)
     {
-        printf("%d",arr[i]);
+        found=1;
         break;
     }
-    else
-    {
-        printf("-1");
-    }
+}
+if(found)
+{
+printf("%d",arr[i]);
+}
+else
+{
+    printf("-1");
 }
 }
