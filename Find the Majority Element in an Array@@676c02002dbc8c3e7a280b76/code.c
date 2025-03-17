@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-int n;
+int n,count=1;
 scanf("%d",&n);
 int arr[n],freq[n];
 for(int i=0;i<n;i++)
@@ -26,7 +26,7 @@ for(int i=0;i<n;i++)
     freq[i]=count;
     if(count>n/2)
     {
-        printf("%d",arr[i])
+        printf("%d",arr[i]);
     }
     else
     {
