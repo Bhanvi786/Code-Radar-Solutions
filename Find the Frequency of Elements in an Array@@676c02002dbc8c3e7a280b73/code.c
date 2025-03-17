@@ -12,7 +12,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        if(freq[i]=-1)
+        if(freq[i]==-1)
         {
             int count=1;
         }
@@ -21,10 +21,11 @@ int main()
             if(arr[i]==arr[j])
             {
                 count++;
+                freq[i]=count;
             }
         }
     }
-    freq[i]=count;
+   
     for(int i=0;i<n;i++)
     {
         printf("%d %d\n",arr[i],freq[i]);
