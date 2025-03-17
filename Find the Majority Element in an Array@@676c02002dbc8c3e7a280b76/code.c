@@ -26,18 +26,19 @@ for(int i=0;i<n;i++)
     freq[i]=count;
     
 }
-int flag=0;
+int flag=0,a;
 for(int i=0;i<n;i++)
 {
     if(freq[i]>n/2)
     {
+        a=arr[i];
         flag=1;
         break;
     }
 }
 if(flag)
 {
-printf("%d",arr[i]);
+printf("%d",a);
 }
 else
 {
