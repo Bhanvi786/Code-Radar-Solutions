@@ -13,7 +13,7 @@ int main()
     {
         int num=arr[i];
         int flag=1;
-        for(int j=2;j<=num;j++)
+        for(int j=2;j*j<=num;j++)
         {
             if(num%j==0)
             {
