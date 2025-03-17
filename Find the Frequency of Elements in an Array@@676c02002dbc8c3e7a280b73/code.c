@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int n,i,j;
+    int n,i,j,count;
     scanf("%d",&n);
     int arr[n], freq[n];
     for (i = 0; i < n; i++) {
@@ -9,7 +9,7 @@ int main() {
     }
     for (i = 0; i < n; i++) {
         if (freq[i] == -1) { 
-            int count = 1;
+            count = 1;
 
             for (j = i + 1; j < n; j++) {
                 if (arr[i] == arr[j]) {
