@@ -13,7 +13,7 @@ for(int i=0;i<n;i++)
 {
     if(freq[i]==-1)
     {
-        count=1;
+        freq[i]=count;
     }
     for(int j=i+1;j<n;j++)
     {
