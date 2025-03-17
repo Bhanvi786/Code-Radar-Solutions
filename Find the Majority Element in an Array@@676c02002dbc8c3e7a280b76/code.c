@@ -27,7 +27,7 @@ for(int i=0;i<n;i++)
     
 }
 int flag=0;
-for(i=0;i<n;i++)
+for(int i=0;i<n;i++)
 {
     if(freq[i]>n/2)
     {
