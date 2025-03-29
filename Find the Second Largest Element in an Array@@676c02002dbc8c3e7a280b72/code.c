@@ -26,8 +26,9 @@ int main()
         if(arr[i]!=arr[n-1])
         {
             printf("%d",arr[i]);
+            return 0;
         }
-        return 0;
+        
     }
         printf("-1");
         return 0;
