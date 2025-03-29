@@ -9,15 +9,16 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-    if(arr[i]%2==0)  //i%2 checks indcex posn even odd not no at that index
+    for(int i=0;i<n;i++)
     {
-        evencount++;
-    }
-    else
-    {
-        oddcount++;
-    }
+        if(arr[i]%2==0)
+        {
+            evencount++;
+        }
+        else
+        {
+            oddcount++;
+        }
     }
     printf("%d %d",evencount,oddcount);
 }
