@@ -11,7 +11,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        int num=arr[i]
+        int num=arr[i];
         while(num>0)
         {
             remainder=num%10;
@@ -20,7 +20,7 @@ int main()
         }
         if(reverse==num)
         {
-            count++
+            count++;
         }
     }
     printf("%d",count);
