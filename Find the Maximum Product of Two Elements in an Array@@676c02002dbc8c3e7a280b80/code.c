@@ -20,7 +20,14 @@ int main()
             }
         }
     }
-    int max1=arr[n-2]*arr[n-1];
+    for(int i=n-2;i>=0;i--)
+    {
+        if(arr[i]!=arr[n-1])
+        {
+             int max1=arr[n-2]*arr[n-1];
+        }
+    }
+   
     int max2=arr[0]*arr[1];
     if(max1>max2)
     {
