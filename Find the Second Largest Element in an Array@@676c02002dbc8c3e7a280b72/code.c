@@ -26,10 +26,16 @@ int main()
             }
         }
     }
-    if(arr[0]==arr[n-1])
+    for (int i = n-2; i >= 0; i--)
     {
-        printf("-1");
+        if (arr[i] != arr[n-1])
+        {
+            printf("%d", arr[i]);
+            return 0;
+        }
     }
-    else
-    printf("%d",arr[n-2]);
+
+    // If no distinct second largest is found
+    printf("-1");
+    return 0;
 }
