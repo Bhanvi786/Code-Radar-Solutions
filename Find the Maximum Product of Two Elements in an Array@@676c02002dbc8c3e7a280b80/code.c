@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int n,max1,max2;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
@@ -29,7 +29,7 @@ int main()
     }
    
     int max2=arr[0]*arr[1];
-    if(int max1> int max2)
+    if(max1>max2)
     {
     printf("%d",max1);
     }
