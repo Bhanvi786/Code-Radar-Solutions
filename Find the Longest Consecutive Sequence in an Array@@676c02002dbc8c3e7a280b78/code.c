@@ -1,8 +1,7 @@
-// Your code here...
-#include<stdio.h>
+/
 int main()
 {
-    int n,count=1,i;
+    int n,count=0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
@@ -21,14 +20,12 @@ int main()
             }
         }
     }
-    for(i=0;i<n-1;i++)
+    for(int i=0;i<n-1;i++)
     {
-    if(arr[i]+1==arr[i+1])
-    {
-        count++;
+        if(arr[i]+1==arr[i+1])
+        {
+            count++;
+        }
     }
-    }
-
     printf("%d",count);
-
 }
