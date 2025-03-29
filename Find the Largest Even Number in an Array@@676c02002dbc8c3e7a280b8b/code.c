@@ -12,7 +12,7 @@ int main()
     for(int i=0;i<n;i++){
     if(arr[i]%2==0)
     {
-        if(arr[i]>largest)
+        if(largest=-1 || arr[i]>largest)
         {
             largest=arr[i];
         }
