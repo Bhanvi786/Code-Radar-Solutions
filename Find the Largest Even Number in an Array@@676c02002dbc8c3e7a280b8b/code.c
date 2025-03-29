@@ -9,15 +9,15 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++){
+    if(arr[i]%2==0)
     {
-        if(arr[i]%2==0)
+        if(arr[i]>largest)
         {
-            if(largest== -1 ||arr[i]>largest)
-            {
-                largest=arr[i];
-            }
+            largest=arr[i];
         }
     }
-    printf("%d",largest);
+
+    }
+     printf("%d",largest);
 }
