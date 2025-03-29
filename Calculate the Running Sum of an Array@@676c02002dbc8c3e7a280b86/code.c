@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i;
+    int n,sum=0;;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
@@ -11,9 +11,17 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        arr[i]+=arr[i-1];
-        printf("%d ",arr[i]);
-    }
-    
+        int num=arr[i];
 
+        if(num<0)
+        {
+            num=-num;
+        }
+        while(num>0)
+        {
+            sum+=num%10;
+            num=num/10;
+        }
+        printf("%d ",sum);
+    }
 }
