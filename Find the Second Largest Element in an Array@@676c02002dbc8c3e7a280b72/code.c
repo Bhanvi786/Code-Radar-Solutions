@@ -34,8 +34,6 @@ int main()
             return 0;
         }
     }
-
-    // If no distinct second largest is found
     printf("-1");
     return 0;
 }
