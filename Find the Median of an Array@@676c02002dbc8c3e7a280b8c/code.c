@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main()
 {
-    int n;
+    int n,median;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
@@ -11,7 +11,7 @@ int main()
     }
     for(int i=0;i<n-1;i++)
     {
-        for(int j=0;j<n-1-i;j++)
+        for(int j=0;j<n-i-1;j++)
         {
             if(arr[j]>arr[j+1])
             {
@@ -21,15 +21,13 @@ int main()
             }
         }
     }
-    int median;
     if(n%2==1)
     {
         median=arr[n/2];
     }
     else
     {
-        median=(arr[n/2-1]+arr[n/ 2])/2;
+        median=(arr[n/2-1]+arr[n/2])/2;
     }
     printf("%d",median);
-    
 }
