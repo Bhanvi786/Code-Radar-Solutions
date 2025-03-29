@@ -29,7 +29,7 @@ int main()
     }
    
     int max2=arr[0]*arr[1];
-    if(max1>max2)
+    if(int max1> int max2)
     {
     printf("%d",max1);
     }
