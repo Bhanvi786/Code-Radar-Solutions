@@ -1,4 +1,5 @@
 // Your code here...
+
 #include<stdio.h>
 int main()
 {
@@ -20,6 +21,6 @@ int main()
                 arr[j+1]=temp;
             }
         }
+
     }
-    printf("%d %d",arr[0],arr[n-1]);
-}
+     printf("%d %d",arr[0],arr[n-1]);}
