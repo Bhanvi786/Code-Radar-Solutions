@@ -24,11 +24,11 @@ int main()
     {
         if(arr[i]!=arr[n-1])
         {
-             int max1=arr[n-2]*arr[n-1];
+             max1=arr[n-2]*arr[n-1];
         }
     }
    
-    int max2=arr[0]*arr[1];
+    max2=arr[0]*arr[1];
     if(max1>max2)
     {
     printf("%d",max1);
