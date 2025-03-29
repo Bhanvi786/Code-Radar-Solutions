@@ -1,20 +1,14 @@
-// Your code here... gALAT HAI YEH DUPLICATES NHI CHALENGE
-#include<stdio.h>
+// Your code here#include<stdio.h>
 int main()
 {
     int n;
     scanf("%d",&n);
-    if(n<2)
-    {
-        printf("-1");
-        return 0;
-    }
     int arr[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n-1;i++ )
+    for(int i=0;i<n-1;i++)
     {
         for(int j=0;j<n-1-i;j++)
         {
@@ -26,14 +20,17 @@ int main()
             }
         }
     }
-    for (int i = n-2; i >= 0; i--)
+    for(int i=n-2;i>=0;i--)
     {
-        if (arr[i] != arr[n-1])
+        if(arr[i]!=arr[i-1])
         {
-            printf("%d", arr[i]);
-            return 0;
+            printf("%d",arr[i]);
         }
+        return 0;
     }
-    printf("-1");
-    return 0;
+
+
+        printf("-1");
+        return 0;
+
 }
