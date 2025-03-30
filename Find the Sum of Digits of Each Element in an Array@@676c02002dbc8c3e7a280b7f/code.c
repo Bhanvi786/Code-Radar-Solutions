@@ -19,7 +19,7 @@ int main()
         }
         while(num>0)
         {
-           int remainder=remainder%10
+           int remainder=remainder%10;
            sum=sum+remainder;
            num=num/10;
         }
