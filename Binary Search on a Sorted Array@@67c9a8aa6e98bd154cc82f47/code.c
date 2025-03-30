@@ -8,6 +8,10 @@ int binarySearch(int arr[],int n,int target)
             return i;
            
         }
+        else if(target!=arr[i])
+        {
+            return -1;
+        }
         
     }
 }
