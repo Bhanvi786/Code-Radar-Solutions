@@ -13,9 +13,13 @@ int main()
     {
         int num=arr[i];
         int flag=1;
+        if(num<=1)
+        {
+            flag=0;
+        }
         for(int j=0;j<num;j++)
         {
-            if(num%i==0)
+            if(num%j==0)
             {
                 flag=0;
                 break;
