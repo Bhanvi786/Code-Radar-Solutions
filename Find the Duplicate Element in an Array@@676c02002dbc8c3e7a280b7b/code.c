@@ -26,9 +26,7 @@ int main()
         if(arr[i]==arr[i+1])
         {
             printf("%d",arr[i]);
-            duplicate=1;
-            while(i>0 && arr[i]==arr[i+1]){
-                i++;
+            
             }
         }
     }
