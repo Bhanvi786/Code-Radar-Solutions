@@ -23,6 +23,7 @@ void printPrimesInRange(int a,int b)
         {
             printf("%d ",i);
             found=1;
+            break;
         }
     }
     if(!found)
