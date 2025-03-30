@@ -19,8 +19,9 @@ int main()
         }
         while(num>0)
         {
-            sum+=num%10;
-            num=num/10;
+           int remainder=remainder%10
+           sum=sum+remainder;
+           num=num/10;
         }
         printf("%d ",sum);
     }
