@@ -26,7 +26,7 @@ int main()
     {
         if(arr[i]!=arr[0])
         {
-            prontf("%d",arr[i]);
+            printf("%d",arr[i]);
             return 0;
         }
         printf("-1");
