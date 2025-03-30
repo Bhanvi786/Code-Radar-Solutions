@@ -20,7 +20,8 @@ int findUnsortedSubarray(int arr[], int n)
     }
     if(left==-1 || right==-1)
     {
-        printf("0\n")
+        printf("0\n");
+        return 0;
     }
     int a=(right-left)+1;
     printf("%d",a);
