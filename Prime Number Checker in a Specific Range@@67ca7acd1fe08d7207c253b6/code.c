@@ -1,5 +1,5 @@
 // Your code here...
-int isPrime(int a,int b)
+int isPrime(int num)
 {
     if(num<=1)
     {
