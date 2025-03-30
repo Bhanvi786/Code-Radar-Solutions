@@ -2,11 +2,11 @@
 int fibonacciSeries(int n)
 {
     int x=0,y=1,z=0;
-    printf("%d %d",x,y)
+    printf("%d %d",x,y);
     for(i=2;i<n;i++)
     {
         z=x+y;
-        printf("%d",z);
+        printf("%d ",z);
         x=y;
         y=z;
     }
