@@ -2,8 +2,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,m,count=0;
-    scanf("%d %d",&n,&m);
+    int n,k,count=0;
+    scanf("%d %d",&n,&k);
     int arr[n];
     for(int i=0;i<n;i++)
     {
@@ -11,7 +11,7 @@ int main()
     }
     for(int i=0;i<n;i++)
     {
-        if(arr[i]==m)
+        if(arr[i]==k)
         {
             count++;
         }
