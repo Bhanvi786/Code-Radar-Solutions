@@ -27,6 +27,7 @@ int main()
         if(arr[i]>arr[0])
         {
             printf("%d",arr[i]);
+            break;
         }
     }
     
