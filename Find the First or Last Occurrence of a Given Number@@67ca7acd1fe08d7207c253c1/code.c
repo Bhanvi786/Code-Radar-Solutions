@@ -1,5 +1,5 @@
 // Your code here...
-int findOccurrence(int arr[],unt n,int target,int mode)
+int findOccurrence(int arr[],int n,int target,int mode)
 {
     for(int i=0;i<n-1;i++)
     {
