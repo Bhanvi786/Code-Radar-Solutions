@@ -6,7 +6,7 @@ int fibonacciSeries(int n)
     for(int i=2;i<n;i++)
     {
         z=x+y;
-        printf(" %d ",z);
+        printf(" %d",z);
         x=y;
         y=z;
     }
