@@ -9,17 +9,16 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    int T;
-    scanf("%d",&T);
+    int k;
+    scanf("%d",&k);
     for(int i=0;i<n;i++)
     {
         for(int j=i+1;j<n;j++)
         {
-        if(arr[i]+arr[j]==T)
-        {
-            printf("%d %d\n",arr[i], arr[j]);
-            return 0;
-        }
+            if(arr[i]+arr[j]==k)
+            {
+                printf("%d %d\n",arr[i],arr[j]);
+            }
         }
     }
 }
