@@ -7,7 +7,7 @@ int selectionSort(int arr[],int n)
     {
     if(arr[j]>arr[j+1])
     {
-        temp=arr[j];
+        int temp=arr[j];
         arr[j]=arr[j+1];
         arr[j+1]=temp;
     }
@@ -19,4 +19,5 @@ void printArray(int arr[],int n)
     {
         printf("%d",arr[i]);
     }
+}
 }
