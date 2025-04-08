@@ -1,33 +1,23 @@
 // Your code here...
 #include<stdio.h>
-
-#include<stdio.h>
 int main()
 {
-    int n;
+    int n,count=0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
-    for(int i=0;i<n-1;i++)
+    for(int i=0;i<n;i++)
     {
-        for(int j=0;j<n-i-1;j++)
+        for(int j=i+1;j<n;j++)
         {
-            if(arr[j]>arr[j+1])
+            if(arr[i]==arr[j])
             {
-                int temp=arr[j];
-                arr[j]=arr[j+1];
-                arr[j+1]=temp;
+                count++;
             }
         }
     }
-    for(int i=0;i<n;i++)
-    {
-        if(arr[i]==arr[i+1])
-        {
-            printf("%d",arr[i]);
-        }
-    }
+    printf("%d",count);
 }
